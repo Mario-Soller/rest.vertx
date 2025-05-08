@@ -1185,7 +1185,7 @@ A value reader must:
 
 ```java
 /**
- * Converts request body to JSON
+ * Converts JSON to request body
  */
 public class MyCustomReader implements ValueReader<MyNewObject> {
 
