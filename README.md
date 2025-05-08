@@ -1533,12 +1533,12 @@ public class MyExceptionHandler implements ExceptionHandler<MyExceptionClass> {
 @CatchWith(MyExceptionHandler.class)
 public String fail(){
 
-    throw new MyExceptionClass("Not implemented.",404);
+    throw new MyExceptionClass("Not implemented.",501);
     }
 ```
 
 ```
-> GET /throw -> 404 Not implemented
+> GET /throw -> 501 Not implemented
 ```
 
 ## Path / Method error handler
